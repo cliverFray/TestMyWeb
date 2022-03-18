@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.matrices tr td>input{
+    width: 50px;
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+body div{
+    margin: auto;
+    display: inline-block;
+}
+#resp,div>p{
+    color: white;
+}
+section{
+    text-align: left;
+}
+#contenedor{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px 0px auto;
+    /*align-items: center;*/
+}
+#contenedor div{
+    align-items: center;
+}
+#m2{
+    float: left;
+   
+}
+#buttons{
+    float: left;
+    margin: 20px 10px 0px 10px;
+
+}
+#buttons button{
+    margin: 0px 5px 2px 0px;
+    padding: 0px 3px;
+    border: 1px white solid;
+    background-color: rgb(60, 70, 66);
+    color: white;
+    padding: 2px 2px;
+    width: 40px;
+}
+#mres{
+    margin-left: 20px;
+}
+#matriz_1 tr td input,#matriz_2 tr td input,#matriz_r tr td input{
+    text-align: center;
+    background-color: #000;
+    color: white;
+    border-color: red;
+    font-weight: 2px;
+}
+#matriz_1 tr td input::-webkit-inner-spin-button,#matriz_2 tr td input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+#clear{
+    margin: 20px 0px 0px 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px yellow solid;
+    background-color: darkorchid;
+    color: white;
+}
+#buttons button:hover,#clear:hover{
+    cursor: pointer;
+    background: rgb(87, 94, 92);
+}
+header h1{
+    color: red;
+    text-shadow: 2px ;
+}
